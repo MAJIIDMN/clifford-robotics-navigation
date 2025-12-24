@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/robot_ga/robot_ga.egg-info
+writing ../../build/robot_ga/robot_ga.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_ga/robot_ga.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_ga/robot_ga.egg-info/entry_points.txt
+writing requirements to ../../build/robot_ga/robot_ga.egg-info/requires.txt
+writing top-level names to ../../build/robot_ga/robot_ga.egg-info/top_level.txt
+writing manifest file '../../build/robot_ga/robot_ga.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_ga/robot_ga.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/robot_ga/robot_ga.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/build/robot_ga/build/lib/robot_ga
+copying robot_ga/motion_node.py -> /home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/build/robot_ga/build/lib/robot_ga
+copying robot_ga/ga_math.py -> /home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/build/robot_ga/build/lib/robot_ga
+copying robot_ga/__init__.py -> /home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/build/robot_ga/build/lib/robot_ga
+running install
+running install_lib
+creating /home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/install/robot_ga/lib/python3.10/site-packages/robot_ga
+copying /home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/build/robot_ga/build/lib/robot_ga/motion_node.py -> /home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/install/robot_ga/lib/python3.10/site-packages/robot_ga
+copying /home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/build/robot_ga/build/lib/robot_ga/ga_math.py -> /home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/install/robot_ga/lib/python3.10/site-packages/robot_ga
+copying /home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/build/robot_ga/build/lib/robot_ga/__init__.py -> /home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/install/robot_ga/lib/python3.10/site-packages/robot_ga
+byte-compiling /home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/install/robot_ga/lib/python3.10/site-packages/robot_ga/motion_node.py to motion_node.cpython-310.pyc
+byte-compiling /home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/install/robot_ga/lib/python3.10/site-packages/robot_ga/ga_math.py to ga_math.cpython-310.pyc
+byte-compiling /home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/install/robot_ga/lib/python3.10/site-packages/robot_ga/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/install/robot_ga/share/ament_index/resource_index/packages
+copying resource/robot_ga -> /home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/install/robot_ga/share/ament_index/resource_index/packages
+copying package.xml -> /home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/install/robot_ga/share/robot_ga
+creating /home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/install/robot_ga/share/robot_ga/launch
+copying launch/ga_robot_launch.py -> /home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/install/robot_ga/share/robot_ga/launch
+creating /home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/install/robot_ga/share/robot_ga/rviz
+copying rviz/config.rviz -> /home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/install/robot_ga/share/robot_ga/rviz
+running install_egg_info
+Copying ../../build/robot_ga/robot_ga.egg-info to /home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/install/robot_ga/lib/python3.10/site-packages/robot_ga-0.0.0-py3.10.egg-info
+running install_scripts
+Installing motion_node script to /home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/install/robot_ga/lib/robot_ga
+writing list of installed files to '/home/majiidkun/Majiid/KULIAH/ITB/Semester3/Algeo/Makalah/build/robot_ga/install.log'
