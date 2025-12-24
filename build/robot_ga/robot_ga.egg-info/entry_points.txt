@@ -1,2 +1,0 @@
-[console_scripts]
-motion_node = robot_ga.motion_node:main
