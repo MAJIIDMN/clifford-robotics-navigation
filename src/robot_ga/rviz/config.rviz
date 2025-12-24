@@ -1,0 +1,66 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Views
+    Name: Views
+  - Class: rviz_common/Time
+    Name: Time
+
+Visualization Manager:
+  Class: ""
+
+  Global Options:
+    Fixed Frame: map
+    Background Color: 48; 48; 48
+    Frame Rate: 30
+
+  Displays:
+
+    - Name: Grid
+      Class: rviz_default_plugins/Grid
+      Enabled: true
+      Plane: XY
+      Cell Size: 1
+      Color: 160; 160; 160
+      Alpha: 0.5
+
+    - Name: TF
+      Class: rviz_default_plugins/TF
+      Enabled: true
+      Show Axes: true
+      Show Names: true
+
+    - Name: Robot Pose
+      Class: rviz_default_plugins/Pose
+      Enabled: true
+      Topic: /pose
+      Color: 25; 255; 25
+      Shaft Length: 0.8
+      Shaft Radius: 0.08
+      Head Length: 0.2
+      Head Radius: 0.15
+
+    - Name: Path
+      Class: rviz_default_plugins/Path
+      Enabled: true
+      Topic: /path
+      Color: 0; 0; 255
+      Line Width: 0.05
+
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/Measure
+    - Class: rviz_default_plugins/SetInitialPose
+    - Class: rviz_default_plugins/SetGoal
+
+  Views:
+    Current:
+      Class: rviz_default_plugins/TopDownOrtho
+      Scale: 20
+      Angle: 0
+      Focal Point:
+        X: 0
+        Y: 0
+        Z: 0
